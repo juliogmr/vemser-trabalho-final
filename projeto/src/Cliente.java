@@ -5,7 +5,7 @@ public class Cliente extends Cadastro implements Comprar, Vender {
 
         public Cliente(String nome, String endereco, String cpf, String cidade, String estado, String telefone, String email, String senha){
             super(nome, endereco, cpf, cidade, estado, telefone);
-            this.email = email;
+            this.email = email; //TESTE CRUD VALIDO
             this.senha = senha;
         }
 

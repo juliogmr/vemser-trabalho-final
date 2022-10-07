@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Carrinho {
 
-    List<Produto> produtos = new ArrayList<>();
-    List<Cupom> cupons = new ArrayList<>();
+    List<Produto> produtos = new ArrayList<>(); //TESTE CRUD QUANTIDADE
+    List<Cupom> cupons = new ArrayList<>(); //TESTE CRUD VALIDADE
 
     public List<Produto> getProdutos() {
         return produtos;

@@ -2,7 +2,7 @@ public class Cadastro {
 
     String nome;
     String endereco;
-    String cpf;
+    String cpf; //TESTE CRUD CPF VALIDO
     String cidade;
     String estado;
     String telefone;

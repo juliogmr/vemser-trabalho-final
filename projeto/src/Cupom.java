@@ -1,7 +1,7 @@
 public class Cupom {
 
-    private double valor;
-    private boolean validade;
+    private double valor; //TESTE CRUD VALOR > 0
+    private boolean validade; //TESTE CRUD BOOLEAN VALIDO
 
     public Cupom(double valor, boolean validade) {
         this.valor = valor;

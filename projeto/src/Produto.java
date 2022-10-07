@@ -1,9 +1,9 @@
 public class Produto {
 
     private String nome;
-    private long id;
+    private long id; //TESTE CRUD ID ÚNICO
     private int quantidade;
-    private double valor;
+    private double valor; //TESTE CRUD VALOR > 0
     private String descricao;
     Tipos tipo;
 
