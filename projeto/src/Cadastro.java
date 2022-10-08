@@ -2,11 +2,14 @@ public class Cadastro {
 
     String nome;
     String endereco;
-    String cpf; //TESTE CRUD CPF VALIDO
+    String cpf;
     String cidade;
     String estado;
     String telefone;
 
+    public Cadastro(){
+
+    }
     public Cadastro(String nome, String endereco, String cpf, String cidade, String estado, String telefone) {
         this.nome = nome;
         this.endereco = endereco;
@@ -17,30 +20,38 @@ public class Cadastro {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public String getEndereco() {
+
         return endereco;
     }
 
     public void setEndereco(String endereco) {
+
         this.endereco = endereco;
+
     }
 
     public String getCpf() {
+
         return cpf;
     }
 
     public void setCpf(String cpf) {
+
         this.cpf = cpf;
     }
 
     public String getCidade() {
+
         return cidade;
     }
 

@@ -1,5 +1,4 @@
 public class Produto {
-
     private String nome;
     private long id; //TESTE CRUD ID ÚNICO
     private int quantidade;
